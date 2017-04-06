@@ -4,7 +4,7 @@
     "prod": "lerna run prod",
     "both": "run-s build prod",
     "clean": "lerna clean --yes && node rimraf-standalone.js node_modules",
-    "postinstall": "lerna bootstrap",
+    "postinstall": "lerna bootstrap --hoist",
     "run:admin": "lerna run start --stream --scope @oasisdigital/admin",
     "run:agent": "lerna run start --stream --scope @oasisdigital/agent",
     "run:portal": "lerna run start --stream --scope @oasisdigital/portal",

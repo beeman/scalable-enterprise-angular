@@ -71,13 +71,13 @@ https://angularbootcamp.com/
 ### Running the example applications
 
 ```
-yarn
-yarn run build
-yarn run portal
+npm install
+npm run build
+npm run portal
 # use user portal for a while
 ^C
 
-yarn run admin
+npm run admin
 # use admin app for a while
 ```
 
@@ -88,8 +88,8 @@ up with incremental package changes. If you make changes then have trouble, this
 usually helps:
 
 ```
-yarn run clean
-yarn
+npm run clean
+npm install
 ```
 
 ## Issues and annoyances (TODO)
